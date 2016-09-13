@@ -10,7 +10,7 @@ https://dev.battle.net/io-docs
 auction(realm)
 }
 \arguments{
-\item{realm}{}
+\item{realm}{the name of the realm you want data from}
 }
 \details{
 \describe{
