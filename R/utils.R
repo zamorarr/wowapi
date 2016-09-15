@@ -1,10 +1,10 @@
 ua <- httr::user_agent("https://gitlab.com/zamorarr/wowapi")
 baseurl <- "https://us.api.battle.net"
 
-wow_pat <- function() {
-  pat <- Sys.getenv('WOW_API_KEY')
+blizzard_pat <- function() {
+  pat <- Sys.getenv('BLIZZARD_API_KEY')
   if (identical(pat, "")) {
-    stop("Please set env var WOW_API_KEY to your WoW API key",
+    stop("Please set env var BLIZZARD_API_KEY to your Blizzard API key",
          call. = FALSE)
   }
 
@@ -15,7 +15,7 @@ wow_api <- function(path, query = NULL) {
 
   # add locale and apikey to query
   query <- c(query,
-             list(locale = "en_US", apikey = wow_pat())
+             list(locale = "en_US", apikey = blizzard_pat())
              )
 
   # execute query
