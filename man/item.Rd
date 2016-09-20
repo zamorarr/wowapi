@@ -17,6 +17,9 @@ item_set(setid)
 
 \item{setid}{id of the set}
 }
+\description{
+Item API provided detailed item information.
+}
 \details{
 \describe{
  \item{item}{The item API provides detailed item information. This includes item set information if this item is part of a set}

@@ -12,6 +12,9 @@ auction(realm)
 \arguments{
 \item{realm}{the name of the realm you want data from}
 }
+\description{
+Auction API provides an interface to auction house data
+}
 \details{
 \describe{
  \item{auction}{This API resource provides a per-realm list of recently generated auction house data dumps.}

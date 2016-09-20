@@ -1,12 +1,15 @@
 Package: wowapi
-Type: Package
-Title: What the Package Does (Title Case)
 Version: 0.1.0
+Title: R interface to WoW API
+Description: Collection of R functions to interact with Blizzard's
+  Battlenet API (https://dev.battle.net/).
 Authors@R: person("Robert","Zamora", email = "zamora.rr@gmail.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
-LazyData: TRUE
-RoxygenNote: 5.0.1
+License: GPL-3
+LazyData: true
 Imports:
   httr,
-  jsonlite
+  jsonlite,
+  utils
+URL: https://github.com/zamorarr/wowapi
+BugReports: https://github.com/zamorarr/wowapi/issues
+RoxygenNote: 5.0.1

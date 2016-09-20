@@ -11,10 +11,12 @@ make_cp_query <- function(fields) {
 
 #' @title  Character Profile API
 #'
+#' @description The Character Profile API is the primary way to access character information.
+#'
 #' @param realm name of the WoW Realm
 #' @param characterName name of the character you want info on
 #'
-#' @details The Character Profile API is the primary way to access character information.
+#' @details
 #' \describe{
 #'  \item{character_achievements}{A map of achievement data including completion timestamps and criteria information}
 #'  \item{character_appearance}{A map of a character's appearance settings such as which face texture they've selected and whether or not a healm is visible}

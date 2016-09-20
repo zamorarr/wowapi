@@ -5,6 +5,8 @@ item_api <- function(subpath) {
 
 #' @title  Item API
 #'
+#' @description Item API provided detailed item information.
+#'
 #' @param itemid id of the item
 #' @param setid id of the set
 #'

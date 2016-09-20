@@ -12,6 +12,9 @@ quest(id)
 \arguments{
 \item{id}{id of specified quest}
 }
+\description{
+Quest API provides information on quests
+}
 \details{
 \describe{
  \item{quest}{Retrieve metadata for a given quest}

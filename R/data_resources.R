@@ -6,6 +6,8 @@ data_resources <- function(subpath) {
 
 #' @title  Data Resources
 #'
+#' @description Data Resources API provides interface to common data in the game
+#'
 #' @details
 #' \describe{
 #'  \item{all_battlegroups}{The battlegroups data API provides the list of battlegroups for this region}

@@ -1,5 +1,7 @@
 #' @title  Auction API
 #'
+#' @description Auction API provides an interface to auction house data
+#'
 #' @param realm the name of the realm you want data from
 #'
 #' @details

@@ -1,5 +1,7 @@
 #' @title  Quest API
 #'
+#' @description Quest API provides information on quests
+#'
 #' @param id id of specified quest
 #'
 #' @details
