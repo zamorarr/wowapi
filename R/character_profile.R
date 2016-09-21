@@ -34,7 +34,7 @@ make_cp_query <- function(fields) {
 #'  \item{character_reputation}{A list of the factions that the character has an associated reputation with}
 #'  \item{character_statistics}{A map of character statistics}
 #'  \item{character_stats}{A map of character attributes and stats}
-#'  \item{character_character_talents}{A list of talent structures}
+#'  \item{character_talents}{A list of talent structures}
 #'  \item{character_titles}{A list of the titles obtained by the character including the currently selected title}
 #'  \item{character_audit}{Raw character audit data that powers the character audit on the game site}
 #'
